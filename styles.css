@@ -1,0 +1,450 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header img{
+    width:90px;
+    margin-top: 15px;
+    margin-left: 40px;
+    height:68px
+}
+.header{
+    background-color: #202020;
+    height:90px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    
+    
+}
+.left{
+    display: flex;
+   
+}
+
+.left_details{
+    display: flex;
+    margin-top:20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.left_details li{
+    padding: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 350;
+    
+}
+.right_details{
+    display: flex;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.right_details li{
+    padding: 15px;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 350;
+    
+}
+.right_details i{
+    padding: 15px;
+    
+    
+}
+.right_content{
+   margin-left: auto;
+   margin-right: 40px;
+}
+
+.bttext{
+    background-color: rgb(0, 0,0,0.8);
+    color: white;
+    background-position: bottom;
+    font-size: 12px;
+    font-weight: 450;
+    text-align: center;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.bottom-bar{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+   
+}
+
+
+/* section1 */
+/* 
+.image{
+    background-image: url("/images/lambo_sc_053\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 583px;
+    background-position: left;
+    
+} */
+
+.video-container{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+   
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.video_section{
+    height: 100vh;
+    position: relative;
+    font-family: Roboto,Helvetica Neue,Arial;
+}
+
+.video_section .hexagon{
+    width: 60px;
+    fill: transparent;
+    stroke: white ;
+}
+.video_section .hexagon:hover{
+    stroke: black;
+    cursor: pointer;
+    fill: white;
+}
+.text{
+    color: white;
+}
+.text h2{
+    font-size: 35px;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+
+}
+.text h1{
+    font-size: 105px;
+}
+.section1{
+    margin-top: 80px;
+    margin-left: 120px;
+    z-index:10;
+}
+
+
+/* section 1 ends */
+
+/* Section 2 starts */
+.section2{
+    background-image: url("/images/section2.jpg");
+    color: white;
+    margin-top: -4px;
+    background-size: cover;
+}
+.hexagon2{
+    
+    stroke: white;
+    fill: transparent;
+    display: flex;
+    margin-top: 25px;
+    margin-left: -30px;
+}
+
+.section2 svg{
+    margin-left: 35px;
+    stroke: white;
+    fill: transparent;
+    width: 40px;
+   
+}
+.section2 h1{
+    font-size: 110px;
+    margin-top: 55px;
+}
+.section2 h3{
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.section2 h2{
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 1.2px;
+}
+.section2 .hexagon2_1 h5{
+    font-size: 15px;
+    font-weight: 350;
+    margin-left: 29px;
+}
+.hexagon2_1{
+    display: flex;
+    margin-left: -33px;
+    margin-top: 66px;
+}
+.hexagon2 svg:hover{
+    fill: white;
+    cursor: pointer;
+    stroke: black;
+}
+.hexagon2_1 svg:hover{
+    fill: white;
+    cursor: pointer;
+    stroke: black;
+}
+.text2{
+    padding-top: 90px;
+    padding-left: 130px;
+}
+/* Section 2 ends */
+
+
+/* section 3 */
+.section3{
+    background-image: url("/images/secton\ 3.jpg");
+    color: #202020;
+    padding: 130px;
+    background-size: cover;
+    
+}
+
+
+.section3_text h2{
+    font-size: 30px;
+    letter-spacing: 1.9px;
+    font-weight:450;
+
+}
+.section3_text h1{
+    font-size: 70px;
+}
+.hexagon3{
+    width: 50px;
+    fill:transparent;
+    stroke: #9c9b9b;
+}
+.hexagon3:hover{
+   fill:  #ffffff;
+}
+.section3 span{
+    font-weight: 300;
+}
+
+.hrl{
+    
+   
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+
+.hrl span{
+    margin-left: 10px;
+}
+hr{
+    width: 200px;
+}
+
+/* section  3 ends */
+/* section 4 starts */
+
+.section4{
+
+    background-image: url("/images/section\ 5.jpg");
+    color: white;
+    padding: 130px;
+    background-size: cover;
+}
+
+
+
+/* section 4 ends */
+
+/* section 5 starts */
+
+.section5{
+    color: #202020;
+    padding-top: 100px;
+    padding-left: 130px;
+}
+
+.section5 .content h4{
+    font-size: 30px;
+}
+
+.section5 .content h1{
+    font-size: 110px;
+}
+
+.section5 .content img{
+    width: 1100px;
+    height: 550px;
+}
+
+
+/* section 5 ends */
+
+/* section 6 STARTS */
+.main_details{
+    padding-left: 130px;
+    margin-top: 70px;
+}
+.details{
+    display: flex;
+}
+
+.top h4{
+    color: #202020;
+    letter-spacing: 1.3px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.top h2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.top h5{
+    font-weight: 300;
+    color: #202020;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.button6{
+    margin-left: 240px;
+    margin-top: 50px;
+    
+}
+
+.button6 button{
+    width: 210px;
+    height: 50px;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    border: 0.5px solid #a09e9e;
+    color: #202020;
+    background-color: transparent;
+}
+
+.button6 button:hover{
+   background-color: #202020;
+   color: white;
+   cursor: pointer;
+}
+
+.details2 img{
+    width: 550px;
+}
+
+.details2{
+    display: flex;
+    margin-top: 60px;
+    
+}
+.right6{
+    margin-left: 40px;
+}
+
+.right6 h4{
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+.rightbtn{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 25px;
+    border: none;
+    letter-spacing: 1.5px;
+}
+.rightbtn:hover{
+    background-color: #202020;
+    color: white;
+    cursor: pointer;
+}
+
+.right6 h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.rightbtn2{
+    width: 210px;
+    height: 50px;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    border: 0.5px solid #a09e9e;
+    color: #202020;
+    background-color: transparent;
+}
+.rightbtn2:hover{
+    background-color: #202020;
+    color: white;
+    cursor: pointer;
+}
+/* section 6 ends */
+
+.btn7{
+    width: 210px;
+    height: 50px;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    border: 0.5px solid #a09e9e;
+    color: #ffffff;
+    background-color: #202020;
+    text-align: center;
+}
+.section7{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btn7:hover{
+    background-color:transparent;
+    color: rgb(73, 72, 72);
+    cursor: pointer;
+}
+.list_items{
+    display: flex;
+}
+
+.list_items li{
+    margin-left: 30px;
+    list-style-type: none;
+    font-weight: 350;
+}
+
+.footer{
+    background-color: #202020;
+    margin-top: 90px;
+    color: white;
+}
+
+.footer_details_left h3{
+    margin-top: 29px;
+    font-weight: 300;
+    padding-left: 30px;
+    font-size: 17px;
+}
+
+.footer_details_left{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+}
